@@ -1,0 +1,36 @@
+body {
+  background-image: url("night.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+form {
+  text-align: center;
+  margin-top: 320px;
+}
+
+input {
+  font-family: Apple Chancery;
+  border-style: none;
+  background: white;
+  border-radius: 15px;
+  width: 300px;
+  font-size: x-large;
+  color: black;
+  text-shadow: 2px 2px 11px rgba(0, 0, 0, 1);
+}
+
+input:hover {
+  background-color: black;
+  color: white;
+  text-shadow: 2px 2px 11px rgb(252, 251, 251);
+}
+
+footer {
+  text-align: center;
+  padding-top: 22%;
+}
+
+i {
+  padding: 1%;
+}
