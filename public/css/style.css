@@ -1,12 +1,14 @@
 body {
   background-image: url("night.jpeg");
-  background-size: cover;
   background-repeat: no-repeat;
+  background-size: 1400px 1000px;
 }
 
-form {
-  text-align: center;
-  margin-top: 320px;
+.grid-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
 
 input {
@@ -26,11 +28,22 @@ input:hover {
   text-shadow: 2px 2px 11px rgb(252, 251, 251);
 }
 
-footer {
-  text-align: center;
-  padding-top: 22%;
+.footer-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
 }
 
-i {
-  padding: 1%;
+.grid-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.copyrights p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
